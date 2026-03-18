@@ -132,7 +132,7 @@ The system then analyzes how that change reshapes the emotional arc, character d
 
 ### Setup
 
-1. Install dependencies
+Install dependencies
 
 ```bash
 npm install
