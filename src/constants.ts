@@ -512,5 +512,133 @@ export const MOVIES: Movie[] = [
     coreConflictsZh: ['希望 vs 绝望', '体制化', '正义'],
     toneProfile: 'Uplifting, powerful, gritty, hopeful',
     toneProfileZh: '令人振奋、有力、坚毅、充满希望'
+  },
+  {
+    id: 'we-made-a-beautiful-bouquet',
+    title: 'We Made a Beautiful Bouquet',
+    titleZh: '花束般的恋爱',
+    year: 2021,
+    slug: 'we-made-a-beautiful-bouquet',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BNWYyYTZhYjctNDg3MC00ZDk1LTgwMWQtYmI0MmY0YTNlNDkyXkEyXkFqcGc@._V1_.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Realistic', 'Bittersweet', 'Modern Love', 'Growth'],
+    moodTagsZh: ['写实', '苦乐参半', '现代爱情', '成长'],
+    endingTheme: 'The natural fading of a perfect connection.',
+    endingThemeZh: '一段完美关系的自然消逝。',
+    shortSynopsis: 'A young couple falls deeply in love after discovering they share identical tastes in culture, only to face the slow erosion of their bond by the pressures of adult life.',
+    shortSynopsisZh: '一对年轻情侣在发现彼此拥有完全相同的文化品味后坠入爱河，却不得不面对成年生活压力对他们纽带的缓慢侵蚀。',
+    endingSummary: 'Mugi and Kinu realize their romance has withered into a mundane friendship. They decide to break up while they still cherish each other, eventually crossing paths years later with a silent wave.',
+    endingSummaryZh: '麦和绢意识到他们的浪漫已经枯萎成平淡的友谊。他们决定在仍然珍惜对方的时候分手，多年后在街头偶遇，只是默默地挥手致意。',
+    samplePrompts: [
+      'What if Mugi never took the high-pressure corporate job?',
+      'What if they decided to get married despite the lack of passion?',
+      'What if they met again and decided to try one more time?'
+    ],
+    samplePromptsZh: [
+      '如果麦从未接受那份高压的企业工作会怎样？',
+      '如果他们决定在失去激情的情况下依然结婚会怎样？',
+      '如果他们再次相遇并决定再试一次会怎样？'
+    ],
+    coreConflicts: ['Passion vs Stability', 'Adult Responsibility', 'Shared Identity'],
+    coreConflictsZh: ['激情 vs 稳定', '成年人的责任', '共同的身份认同'],
+    toneProfile: 'Realistic, melancholic, intimate, relatable',
+    toneProfileZh: '写实、忧郁、亲密、感同身受'
+  },
+  {
+    id: 'atonement',
+    title: 'Atonement',
+    titleZh: '赎罪',
+    year: 2007,
+    slug: 'atonement',
+    posterUrl: 'https://s.eslite.com/upload/product/o/2680516153001/ec387241.jpg',
+    genres: ['Drama', 'Romance', 'War'],
+    genresZh: ['剧情', '爱情', '战争'],
+    moodTags: ['Regret', 'Tragedy', 'Literary', 'Injustice'],
+    moodTagsZh: ['遗憾', '悲剧', '文学性', '不公'],
+    endingTheme: 'The impossibility of true atonement through fiction.',
+    endingThemeZh: '通过虚构实现真正赎罪的不可能性。',
+    shortSynopsis: 'A young girl\'s lie changes the course of several lives, separating two lovers who are then caught in the chaos of World War II.',
+    shortSynopsisZh: '一个女孩的谎言改变了几个人的命运，拆散了一对恋人，而他们随后又陷入了第二次世界大战的混乱中。',
+    endingSummary: 'An elderly Briony reveals that Robbie and Cecilia never actually reunited; they both died in the war. Her novel was her final attempt at giving them the happiness she stole.',
+    endingSummaryZh: '年迈的布里奥妮透露，罗比和塞西莉亚实际上从未重逢；他们都死于战争。她的剧本是她为给予他们被她偷走的幸福所做的最后尝试。',
+    samplePrompts: [
+      'What if Briony had told the truth immediately?',
+      'What if Robbie had survived the retreat to Dunkirk?',
+      'What if Cecilia had found Robbie before he left for the front?'
+    ],
+    samplePromptsZh: [
+      '如果布里奥妮立即说了实话会怎样？',
+      '如果罗比在敦刻尔克撤退中幸存下来会怎样？',
+      '如果塞西莉亚在罗比前往前线前找到了他会怎样？'
+    ],
+    coreConflicts: ['Guilt and Redemption', 'Class Barriers', 'The Power of Narrative'],
+    coreConflictsZh: ['内疚与救赎', '阶级壁垒', '叙事的力量'],
+    toneProfile: 'Lush, tragic, haunting, sophisticated',
+    toneProfileZh: '华丽、悲剧、挥之不去、精致'
+  },
+  {
+    id: 'roman-holiday',
+    title: 'Roman Holiday',
+    titleZh: '罗马假日',
+    year: 1953,
+    slug: 'roman-holiday',
+    posterUrl: 'https://image.tmdb.org/t/p/original/hEj6NVGPwhue2eBxWGcodkIGLTC.jpg',
+    genres: ['Comedy', 'Romance'],
+    genresZh: ['喜剧', '爱情'],
+    moodTags: ['Classic', 'Charming', 'Bittersweet', 'Freedom'],
+    moodTagsZh: ['经典', '迷人', '苦乐参半', '自由'],
+    endingTheme: 'Duty and grace over personal desire.',
+    endingThemeZh: '责任与优雅高于个人欲望。',
+    shortSynopsis: 'A bored and sheltered princess escapes her guardians and falls in love with an American newsman in Rome.',
+    shortSynopsisZh: '一位感到厌倦且备受保护的公主逃离了她的监护人，并在罗马爱上了一名美国新闻记者。',
+    endingSummary: 'Princess Ann returns to her royal duties, acknowledging her love for Joe Bradley with a single look during a press conference before they part forever.',
+    endingSummaryZh: '安妮公主回到了她的皇室职责中，在新闻发布会上用一个眼神确认了她对乔·布莱德利的爱，随后两人永别。',
+    samplePrompts: [
+      'What if Princess Ann decided to run away with Joe?',
+      'What if Joe had published the story and the photos?',
+      'What if they met again years later in a different city?'
+    ],
+    samplePromptsZh: [
+      '如果安妮公主决定和乔一起逃走会怎样？',
+      '如果乔发表了那篇报道和照片会怎样？',
+      '如果他们多年后在另一个城市再次相遇会怎样？'
+    ],
+    coreConflicts: ['Duty vs Freedom', 'Privacy vs Public Image', 'Class Difference'],
+    coreConflictsZh: ['责任 vs 自由', '隐私 vs 公众形象', '阶级差异'],
+    toneProfile: 'Elegant, witty, romantic, poignant',
+    toneProfileZh: '优雅、诙谐、浪漫、凄美'
+  },
+  {
+    id: 'about-time',
+    title: 'About Time',
+    titleZh: '时空旅恋人',
+    year: 2013,
+    slug: 'about-time',
+    posterUrl: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9564054_p_v8_ak.jpg',
+    genres: ['Comedy', 'Drama', 'Fantasy', 'Romance'],
+    genresZh: ['喜剧', '剧情', '奇幻', '爱情'],
+    moodTags: ['Heartwarming', 'Life-affirming', 'Family', 'Magic'],
+    moodTagsZh: ['温馨', '肯定生命', '家庭', '魔力'],
+    endingTheme: 'Learning to live each day as if it were the final one.',
+    endingThemeZh: '学会把每一天都当作最后一天来度过。',
+    shortSynopsis: 'At the age of 21, Tim discovers he can travel in time and change what happens and has happened in his own life.',
+    shortSynopsisZh: '在21岁时，蒂姆发现他可以穿越时空，改变自己生活中正在发生和已经发生的事情。',
+    endingSummary: 'Tim stops using time travel altogether, realizing that true happiness comes from living every ordinary day with appreciation and love.',
+    endingSummaryZh: '蒂姆完全停止了使用时空旅行，意识到真正的幸福来自于带着感激和爱度过每一个平凡的日子。',
+    samplePrompts: [
+      'What if Tim tried to save his father from illness using time travel?',
+      'What if Mary discovered Tim\'s secret early on?',
+      'What if Tim used his power for personal gain instead of love?'
+    ],
+    samplePromptsZh: [
+      '如果蒂姆试图用时空旅行从疾病中救回他的父亲会怎样？',
+      '如果玛丽很早就发现了蒂姆的秘密会怎样？',
+      '如果蒂姆为了个人利益而不是为了爱使用他的能力会怎样？'
+    ],
+    coreConflicts: ['Control vs Acceptance', 'The Value of Time', 'Family Bonds'],
+    coreConflictsZh: ['控制 vs 接受', '时间的价值', '家庭纽带'],
+    toneProfile: 'Warm, sentimental, philosophical, joyful',
+    toneProfileZh: '温暖、感伤、富有哲理、快乐'
   }
 ];
