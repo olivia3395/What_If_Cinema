@@ -578,7 +578,8 @@ export default function App() {
       </AnimatePresence>
 
       <footer className="py-12 px-6 border-t border-white/5 text-center opacity-30 text-xs tracking-widest uppercase">
-        © 2026 What If Cinema • Powered by Gemini AI
+        <p>© 2026 What If Cinema • Powered by Gemini AI</p>
+        <p className="mt-2">Copyright © yuyao wang • yuyaow@bu.edu</p>
       </footer>
     </div>
   );
