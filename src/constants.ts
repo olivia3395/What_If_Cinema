@@ -1,0 +1,388 @@
+import { Movie } from './types';
+
+export const MOVIES: Movie[] = [
+  {
+    id: 'la-la-land',
+    title: 'La La Land',
+    titleZh: '爱乐之城',
+    year: 2016,
+    slug: 'la-la-land',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg',
+    genres: ['Musical', 'Romance', 'Drama'],
+    genresZh: ['歌舞', '爱情', '剧情'],
+    moodTags: ['Love', 'Ambition', 'Timing', 'Regret'],
+    moodTagsZh: ['爱', '野心', '时机', '遗憾'],
+    endingTheme: 'A love story shaped by dreams arriving at different hours.',
+    endingThemeZh: '一段由不同时刻抵达的梦想所塑造的爱情故事。',
+    shortSynopsis: 'A pianist and an actress fall in love while attempting to reconcile their aspirations for the future in Los Angeles.',
+    shortSynopsisZh: '一名钢琴家和一名女演员在洛杉矶努力协调各自对未来的抱负时坠入爱河。',
+    endingSummary: 'Five years later, Mia is a famous actress and married to another man. She wanders into Sebastian\'s jazz club. They share a long look and a "what if" dream sequence before she leaves.',
+    endingSummaryZh: '五年后，米娅已是著名演员并嫁为人妇。她偶然走进塞巴斯蒂安的爵士俱乐部。在离开前，他们深情对视，并共享了一段“如果当初”的梦幻场景。',
+    samplePrompts: [
+      'What if Mia stayed outside Sebastian\'s jazz bar for ten minutes before leaving for Paris?',
+      'What if Sebastian asked her to stay in LA instead of going to Paris?',
+      'What if they met again earlier, before Mia married someone else?'
+    ],
+    samplePromptsZh: [
+      '如果米娅在去巴黎前，在塞巴斯蒂安的爵士酒吧外多停留了十分钟会怎样？',
+      '如果塞巴斯蒂安要求她留在洛杉矶而不是去巴黎会怎样？',
+      '如果他们在米娅嫁给别人之前更早地再次相遇会怎样？'
+    ],
+    coreConflicts: ['Career vs Love', 'Personal Ambition', 'Reality of Timing'],
+    coreConflictsZh: ['事业 vs 爱情', '个人抱负', '时机的残酷'],
+    toneProfile: 'Wistful, vibrant, jazz-infused, bittersweet',
+    toneProfileZh: '惆怅、充满活力、爵士风、苦乐参半'
+  },
+  {
+    id: 'in-the-mood-for-love',
+    title: 'In the Mood for Love',
+    titleZh: '花样年华',
+    year: 2000,
+    slug: 'in-the-mood-for-love',
+    posterUrl: 'https://s3.amazonaws.com/nightjarprod/content/uploads/sites/238/2025/06/24163318/ITMFL25_Poster_Janus_tp-scaled.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Loneliness', 'Restraint', 'Secret', 'Nostalgia'],
+    moodTagsZh: ['孤独', '克制', '秘密', '怀旧'],
+    endingTheme: 'The beauty of a love that remains unspoken and unfulfilled.',
+    endingThemeZh: '一段未曾言说、未曾圆满的爱情之美。',
+    shortSynopsis: 'Two neighbors develop a strong bond after discovering their respective spouses are having an affair with each other.',
+    shortSynopsisZh: '两个邻居在发现各自的配偶互相出轨后，建立了一种深厚的情感纽带。',
+    endingSummary: 'Chow Mo-wan whispers his secret into a hollow in a wall at Angkor Wat and plugs it with mud, leaving his love for Su Li-zhen in the past.',
+    endingSummaryZh: '周慕云将他的秘密对着吴哥窟墙上的一个洞诉说，并用泥土封住，将他对苏丽珍的爱留在了过去。',
+    samplePrompts: [
+      'What if Chow Mo-wan asked Su Li-zhen to leave with him one last time?',
+      'What if they decided to confront their spouses together?',
+      'What if Su Li-zhen answered the phone when Chow called from Singapore?'
+    ],
+    samplePromptsZh: [
+      '如果周慕云最后一次请求苏丽珍跟他一起走会怎样？',
+      '如果他们决定一起去对质各自的配偶会怎样？',
+      '如果周慕云从新加坡打电话来时，苏丽珍接了电话会怎样？'
+    ],
+    coreConflicts: ['Social Morality', 'Loneliness', 'Unspoken Desire'],
+    coreConflictsZh: ['社会道德', '孤独', '未竟的欲望'],
+    toneProfile: 'Lush, melancholic, restrained, atmospheric',
+    toneProfileZh: '华丽、忧郁、克制、极具氛围感'
+  },
+  {
+    id: 'me-before-you',
+    title: 'Me Before You',
+    titleZh: '遇见你之前',
+    year: 2016,
+    slug: 'me-before-you',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/f/fd/Me_Before_You_%28film%29.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Sacrifice', 'Growth', 'Dignity', 'Joy'],
+    moodTagsZh: ['牺牲', '成长', '尊严', '快乐'],
+    endingTheme: 'Love as a catalyst for living life to its fullest.',
+    endingThemeZh: '爱是活出精彩人生的催化剂。',
+    shortSynopsis: 'A girl in a small town forms an unlikely bond with a recently-paralyzed man she\'s taking care of.',
+    shortSynopsisZh: '一个小镇女孩与她照顾的一位最近瘫痪的男子建立了一段意想不到的联系。',
+    endingSummary: 'Will goes through with assisted suicide despite Louisa\'s love. He leaves her enough money to follow her dreams and live "boldly."',
+    endingSummaryZh: '尽管有露易莎的爱，威尔还是选择了安乐死。他给她留下了一笔钱，让她去追求梦想，“勇敢地”生活。',
+    samplePrompts: [
+      'What if Louisa convinced Will to stay for one more year?',
+      'What if Will found a new medical treatment that gave him hope?',
+      'What if they traveled to a place that changed Will\'s perspective on his condition?'
+    ],
+    samplePromptsZh: [
+      '如果露易莎说服威尔再多留一年会怎样？',
+      '如果威尔找到了一种让他重燃希望的新疗法会怎样？',
+      '如果他们去了一个改变了威尔对他身体状况看法的旅行地会怎样？'
+    ],
+    coreConflicts: ['Quality of Life', 'Autonomy', 'Selfless Love'],
+    coreConflictsZh: ['生活质量', '自主权', '无私的爱'],
+    toneProfile: 'Heartbreaking, uplifting, vibrant, emotional',
+    toneProfileZh: '心碎、令人振奋、充满活力、感人至深'
+  },
+  {
+    id: 'one-day',
+    title: 'One Day',
+    titleZh: '一天',
+    year: 2011,
+    slug: 'one-day',
+    posterUrl: 'https://upload.wikimedia.org/wikipedia/en/a/ad/One_Day_Poster.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Time', 'Friendship', 'Growth', 'Tragedy'],
+    moodTagsZh: ['时间', '友谊', '成长', '悲剧'],
+    endingTheme: 'The profound impact of a single day across decades.',
+    endingThemeZh: '跨越数十年的一天所产生的深远影响。',
+    shortSynopsis: 'After spending the night together on the night of their graduation, Dexter and Emma are shown each year on the same date to see where they are in their lives.',
+    shortSynopsisZh: '在毕业当晚共度一夜后，德克斯特和艾玛每年的同一天都会出现在镜头前，展现他们各自的生活状态。',
+    endingSummary: 'After years of missed connections, they finally marry, only for Emma to die in a cycling accident. Dexter eventually finds peace through his memories.',
+    endingSummaryZh: '在多年的错过后，他们终于结婚了，结果艾玛却在一次自行车事故中去世。德克斯特最终通过回忆找到了平静。',
+    samplePrompts: [
+      'What if Emma didn\'t take that bike ride on that specific day?',
+      'What if Dexter and Emma stayed together after their graduation night?',
+      'What if Dexter realized his feelings much earlier?'
+    ],
+    samplePromptsZh: [
+      '如果艾玛在那天没有骑自行车会怎样？',
+      '如果德克斯特和艾玛在毕业当晚后就一直在一起会怎样？',
+      '如果德克斯特更早地意识到自己的感情会怎样？'
+    ],
+    coreConflicts: ['Timing', 'Self-Destruction', 'Unconditional Support'],
+    coreConflictsZh: ['时机', '自我毁灭', '无条件的支持'],
+    toneProfile: 'Bittersweet, nostalgic, realistic, poignant',
+    toneProfileZh: '苦乐参半、怀旧、写实、心酸'
+  },
+  {
+    id: 'the-notebook',
+    title: 'The Notebook',
+    titleZh: '恋恋笔记本',
+    year: 2004,
+    slug: 'the-notebook',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMTk3OTM5Njg5M15BMl5BanBnXkFtZTYwMzA0ODI3._V1_.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Endurance', 'Memory', 'Class', 'Devotion'],
+    moodTagsZh: ['持久', '记忆', '阶级', '奉献'],
+    endingTheme: 'A love that endures the ravages of time and illness.',
+    endingThemeZh: '一段经受住时间和疾病摧残的爱情。',
+    shortSynopsis: 'A poor yet passionate young man falls in love with a rich young woman, giving her a sense of freedom, but they are soon separated because of their social differences.',
+    shortSynopsisZh: '一个贫穷但充满激情的年轻人爱上了一个富家女，给了她自由的感觉，但由于社会地位的差异，他们很快就分开了。',
+    endingSummary: 'In the present, an elderly Noah reads their story to Allie, who has dementia. They eventually pass away peacefully in each other\'s arms.',
+    endingSummaryZh: '在现在，年迈的诺亚把他们的故事读给患有痴呆症的艾莉听。他们最终在彼此的怀抱中安详去世。',
+    samplePrompts: [
+      'What if Allie\'s mother never hid the letters Noah wrote?',
+      'What if Allie chose Lon instead of returning to Noah?',
+      'What if Allie never developed dementia?'
+    ],
+    samplePromptsZh: [
+      '如果艾莉的母亲从未藏起诺亚写的信会怎样？',
+      '如果艾莉选择了隆而不是回到诺亚身边会怎样？',
+      '如果艾莉从未患上痴呆症会怎样？'
+    ],
+    coreConflicts: ['Social Class', 'Parental Approval', 'Memory Loss'],
+    coreConflictsZh: ['社会阶级', '父母的认可', '记忆丧失'],
+    toneProfile: 'Romantic, sweeping, emotional, timeless',
+    toneProfileZh: '浪漫、宏大、感人、永恒'
+  },
+  {
+    id: 'little-women',
+    title: 'Little Women',
+    titleZh: '小妇人',
+    year: 2019,
+    slug: 'little-women',
+    posterUrl: 'https://images.squarespace-cdn.com/content/v1/608d9ef497633c6b6eb71caf/1620730544468-51KR9HRE1B5PMPFNOAIZ/LittleWomenReview.jpg',
+    genres: ['Drama', 'Romance'],
+    genresZh: ['剧情', '爱情'],
+    moodTags: ['Sisterhood', 'Independence', 'Ambition', 'Family'],
+    moodTagsZh: ['姐妹情', '独立', '野心', '家庭'],
+    endingTheme: 'The power of storytelling and female agency.',
+    endingThemeZh: '故事叙述的力量和女性的自主权。',
+    shortSynopsis: 'Jo March reflects back and forth on her life, telling the beloved story of the March sisters - four young women, each determined to live life on her own terms.',
+    shortSynopsisZh: '乔·马奇回顾并讲述了马奇姐妹心爱的故事——四个年轻女性，每个人都决心按照自己的方式生活。',
+    endingSummary: 'Jo publishes her book, "Little Women." The ending blurs the line between her fictional character\'s marriage and her own success as an independent author.',
+    endingSummaryZh: '乔出版了她的书《小妇人》。结局模糊了她小说角色的婚姻与她作为独立作家的成功之间的界限。',
+    samplePrompts: [
+      'What if Jo accepted Laurie\'s proposal the first time?',
+      'What if Beth had survived her illness?',
+      'What if Amy never went to Europe with Aunt March?'
+    ],
+    samplePromptsZh: [
+      '如果乔第一次就接受了劳里的求婚会怎样？',
+      '如果贝丝在病中幸存下来会怎样？',
+      '如果艾米从未随马奇姑妈去欧洲会怎样？'
+    ],
+    coreConflicts: ['Independence vs Tradition', 'Poverty', 'Artistic Integrity'],
+    coreConflictsZh: ['独立 vs 传统', '贫困', '艺术完整性'],
+    toneProfile: 'Warm, spirited, intellectual, heartfelt',
+    toneProfileZh: '温暖、充满活力、理智、真挚'
+  },
+  {
+    id: 'titanic',
+    title: 'Titanic',
+    titleZh: '泰坦尼克号',
+    year: 1997,
+    slug: 'titanic',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Tragedy', 'Sacrifice', 'Class', 'Eternal Love'],
+    moodTagsZh: ['悲剧', '牺牲', '阶级', '永恒的爱'],
+    endingTheme: 'A love that transcends death and social barriers.',
+    endingThemeZh: '一段超越死亡和社会障碍的爱情。',
+    shortSynopsis: 'A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.',
+    shortSynopsisZh: '一名十七岁的贵族少女在豪华但注定沉没的泰坦尼克号上爱上了一位善良但贫穷的艺术家。',
+    endingSummary: 'Jack dies of hypothermia in the freezing water while Rose survives on a floating door. An elderly Rose drops the Heart of the Ocean into the sea and passes away, reuniting with Jack in the afterlife.',
+    endingSummaryZh: '杰克在冰冷的海水中死于体温过低，而露丝靠着一扇漂浮的门幸存下来。年迈的露丝将“海洋之心”丢入大海并去世，在来世与杰克重逢。',
+    samplePrompts: [
+      'What if there was room for Jack on the door?',
+      'What if Jack found another piece of debris to stay afloat?',
+      'What if the Carpathia arrived an hour earlier?'
+    ],
+    samplePromptsZh: [
+      '如果门上有杰克的位置会怎样？',
+      '如果杰克找到了另一块碎片让自己漂浮起来会怎样？',
+      '如果卡帕西亚号早到一个小时会怎样？'
+    ],
+    coreConflicts: ['Survival vs Love', 'Social Class', 'Fate'],
+    coreConflictsZh: ['生存 vs 爱情', '社会阶级', '命运'],
+    toneProfile: 'Epic, tragic, romantic, grand',
+    toneProfileZh: '史诗、悲剧、浪漫、宏大'
+  },
+  {
+    id: 'love-letter',
+    title: 'Love Letter',
+    titleZh: '情书',
+    year: 1995,
+    slug: 'love-letter',
+    posterUrl: 'https://i0.wp.com/lasttimeisawdotcom.wordpress.com/wp-content/uploads/2021/05/love-letter-poster.jpg?fit=840%2C1200&ssl=1',
+    genres: ['Drama', 'Romance'],
+    genresZh: ['剧情', '爱情'],
+    moodTags: ['Nostalgia', 'Grief', 'First Love', 'Winter'],
+    moodTagsZh: ['怀旧', '悲伤', '初恋', '冬日'],
+    endingTheme: 'A letter sent to the past that uncovers a hidden love.',
+    endingThemeZh: '一封寄往过去的信，揭开了一段隐藏的爱。',
+    shortSynopsis: 'A woman sends a letter to her deceased fiancé\'s old address and receives a reply from a woman with the same name who knew him in high school.',
+    shortSynopsisZh: '一名女子向她已故未婚夫的旧地址寄了一封信，并收到了一位同名女子的回信，后者在高中时认识他。',
+    endingSummary: 'Itsuki (female) discovers that the male Itsuki had hidden a portrait of her on the back of a library card, confirming his silent love for her all those years ago.',
+    endingSummaryZh: '藤井树（女）发现藤井树（男）在借书卡背面画了她的肖像，证实了他多年前对她沉默的爱。',
+    samplePrompts: [
+      'What if Itsuki (female) and Itsuki (male) had confessed their feelings in high school?',
+      'What if Hiroko met Itsuki (female) earlier in the story?',
+      'What if the letters were never sent?'
+    ],
+    samplePromptsZh: [
+      '如果藤井树（女）和藤井树（男）在高中时表白了会怎样？',
+      '如果博子在故事更早的时候遇到了藤井树（女）会怎样？',
+      '如果信件从未寄出会怎样？'
+    ],
+    coreConflicts: ['Grief and Letting Go', 'Hidden Identity', 'Unspoken Love'],
+    coreConflictsZh: ['悲伤与放下', '隐藏的身份', '未竟的爱'],
+    toneProfile: 'Poetic, snowy, melancholic, nostalgic',
+    toneProfileZh: '诗意、雪景、忧郁、怀旧'
+  },
+  {
+    id: 'before-sunrise',
+    title: 'Before Sunrise',
+    titleZh: '爱在黎明破晓前',
+    year: 1995,
+    slug: 'before-sunrise',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BZDZhZmI1ZTUtYWI3NC00NTMwLTk3NWMtNDc0OGNjM2I0ZjlmXkEyXkFqcGc@._V1_.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Connection', 'Conversation', 'Ephemeral', 'Youth'],
+    moodTagsZh: ['连接', '对话', '转瞬即逝', '青春'],
+    endingTheme: 'The magic of a single night shared between strangers.',
+    endingThemeZh: '陌生人之间共享的一个夜晚的魔力。',
+    shortSynopsis: 'A young man and woman meet on a train in Europe and spend one night together in Vienna, knowing they will likely never see each other again.',
+    shortSynopsisZh: '一名年轻男子和一名年轻女子在欧洲的一列火车上相遇，并在维也纳共度了一夜，他们知道彼此可能再也不会见面。',
+    endingSummary: 'Jesse and Celine part ways at the train station, promising to meet again in six months at the same spot, without exchanging any contact information.',
+    endingSummaryZh: '杰西和赛琳在火车站分手，约定六个月后在同一地点再次见面，没有交换任何联系方式。',
+    samplePrompts: [
+      'What if they exchanged phone numbers or addresses at the station?',
+      'What if Celine decided to stay in Vienna with Jesse?',
+      'What if they met again much sooner than six months?'
+    ],
+    samplePromptsZh: [
+      '如果他们在车站交换了电话号码或地址会怎样？',
+      '如果赛琳决定留在维也纳陪杰西会怎样？',
+      '如果他们在不到六个月的时间里就再次相遇会怎样？'
+    ],
+    coreConflicts: ['Time Constraints', 'Fear of Commitment', 'Idealism vs Reality'],
+    coreConflictsZh: ['时间限制', '对承诺的恐惧', '理想主义 vs 现实'],
+    toneProfile: 'Talkative, romantic, intellectual, fleeting',
+    toneProfileZh: '健谈、浪漫、理智、转瞬即逝'
+  },
+  {
+    id: 'pride-and-prejudice',
+    title: 'Pride & Prejudice',
+    titleZh: '傲慢与偏见',
+    year: 2005,
+    slug: 'pride-and-prejudice',
+    posterUrl: 'https://s3.amazonaws.com/nightjarprod/content/uploads/sites/34/2021/10/08131637/sGjIvtVvTlWnia2zfJfHz81pZ9Q.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Class', 'Misunderstanding', 'Wit', 'Devotion'],
+    moodTagsZh: ['阶级', '误解', '机智', '奉献'],
+    endingTheme: 'Overcoming social barriers and personal biases for true love.',
+    endingThemeZh: '为了真爱克服社会障碍和个人偏见。',
+    shortSynopsis: 'Sparks fly when spirited Elizabeth Bennet meets single, rich, and proud Mr. Darcy. But Mr. Darcy reluctantly finds himself falling in love with a woman beneath his class.',
+    shortSynopsisZh: '当充满活力的伊丽莎白·班内特遇到单身、富有且傲慢的达西先生时，火花四溅。但达西先生不情愿地发现自己爱上了一个地位低于他的女性。',
+    endingSummary: 'After overcoming numerous misunderstandings and social hurdles, Darcy proposes again, and Elizabeth accepts. They marry, finding happiness despite their initial prejudices.',
+    endingSummaryZh: '在克服了无数误解和社会障碍后，达西再次求婚，伊丽莎白接受了。他们结婚了，尽管最初存在偏见，但还是找到了幸福。',
+    samplePrompts: [
+      'What if Elizabeth accepted Darcy\'s first proposal?',
+      'What if Wickham\'s true character was revealed much earlier?',
+      'What if Jane and Bingley never reunited?'
+    ],
+    samplePromptsZh: [
+      '如果伊丽莎白接受了达西的第一次求婚会怎样？',
+      '如果韦翰的真实性格更早被揭露会怎样？',
+      '如果珍和宾利从未重逢会怎样？'
+    ],
+    coreConflicts: ['Social Class', 'First Impressions', 'Family Reputation'],
+    coreConflictsZh: ['社会阶级', '第一印象', '家庭声誉'],
+    toneProfile: 'Witty, elegant, romantic, spirited',
+    toneProfileZh: '机智、优雅、浪漫、充满活力'
+  },
+  {
+    id: 'apple-of-my-eye',
+    title: 'You Are the Apple of My Eye',
+    titleZh: '那些年，我们一起追的女孩',
+    year: 2011,
+    slug: 'apple-of-my-eye',
+    posterUrl: 'https://blog.enjoymovie.net/wp-content/uploads/2022/01/4_image-60.png',
+    genres: ['Romance', 'Comedy', 'Drama'],
+    genresZh: ['爱情', '喜剧', '剧情'],
+    moodTags: ['Youth', 'Regret', 'Friendship', 'Bittersweet'],
+    moodTagsZh: ['青春', '遗憾', '友谊', '苦乐参半'],
+    endingTheme: 'The beauty of a youth spent chasing the same girl.',
+    endingThemeZh: '一段追逐同一个女孩的青春之美。',
+    shortSynopsis: 'A group of close friends who attend a private school all have a crush on the same girl, Shen Chia-yi.',
+    shortSynopsisZh: '一群就读于私立学校的好友都暗恋着同一个女孩——沈佳宜。',
+    endingSummary: 'Years later, at Shen Chia-yi\'s wedding, Ko Ching-teng kisses the groom to "kiss" the bride in his mind. He realizes that loving her means being happy for her happiness.',
+    endingSummaryZh: '多年后，在沈佳宜的婚礼上，柯景腾亲吻了新郎，以此在心中“亲吻”新娘。他意识到爱她意味着为她的幸福而感到幸福。',
+    samplePrompts: [
+      'What if Ko Ching-teng asked Shen Chia-yi out after the fight in the rain?',
+      'What if they went to the same university?',
+      'What if Shen Chia-yi told him her answer on the night they released the lantern?'
+    ],
+    samplePromptsZh: [
+      '如果柯景腾在雨中吵架后约沈佳宜出去会怎样？',
+      '如果他们考上了同一所大学会怎样？',
+      '如果沈佳宜在放天灯的那晚告诉了他她的答案会怎样？'
+    ],
+    coreConflicts: ['Maturity Gap', 'Pride', 'Unspoken Feelings'],
+    coreConflictsZh: ['成熟度差异', '自尊心', '未竟的情感'],
+    toneProfile: 'Energetic, nostalgic, bittersweet, youthful',
+    toneProfileZh: '充满活力、怀旧、苦乐参半、青春'
+  },
+  {
+    id: 'call-me-by-your-name',
+    title: 'Call Me by Your Name',
+    titleZh: '请以你的名字呼唤我',
+    year: 2017,
+    slug: 'call-me-by-your-name',
+    posterUrl: 'https://atwoodmagazine.com/wp-content/uploads/2018/03/Call-Me-By-Your-Name-Header.jpg',
+    genres: ['Romance', 'Drama'],
+    genresZh: ['爱情', '剧情'],
+    moodTags: ['Summer', 'First Love', 'Desire', 'Italy'],
+    moodTagsZh: ['盛夏', '初恋', '欲望', '意大利'],
+    endingTheme: 'The pain and beauty of a transformative summer love.',
+    endingThemeZh: '一段蜕变式盛夏之恋的痛苦与美丽。',
+    shortSynopsis: 'In 1980s Italy, a romance blossoms between a seventeen-year-old student and the older man hired as his father\'s research assistant.',
+    shortSynopsisZh: '20世纪80年代的意大利，一名17岁的学生与受雇于他父亲的科研助手之间萌发了一段恋情。',
+    endingSummary: 'Oliver leaves Italy and later calls Elio to tell him he is getting married. Elio sits by the fireplace, reflecting on their time together as his parents watch him with empathy.',
+    endingSummaryZh: '奥利弗离开了意大利，后来打电话给艾利欧告诉他自己要结婚了。艾利欧坐在壁炉旁，回想着他们在一起的时光，他的父母在一旁感同身受地看着他。',
+    samplePrompts: [
+      'What if Oliver stayed in Italy?',
+      'What if Elio went to visit Oliver earlier?',
+      'What if they met again years later while both were single?'
+    ],
+    samplePromptsZh: [
+      '如果奥利弗留在了意大利会怎样？',
+      '如果艾利欧更早去拜访奥利弗会怎样？',
+      '如果多年后他们在双方都单身的情况下再次相遇会怎样？'
+    ],
+    coreConflicts: ['Self-Discovery', 'Social Expectations', 'The Passage of Time'],
+    coreConflictsZh: ['自我发现', '社会期望', '时间的流逝'],
+    toneProfile: 'Sensual, sun-drenched, intellectual, heartbreaking',
+    toneProfileZh: '感性、阳光明媚、理智、令人心碎'
+  }
+];
