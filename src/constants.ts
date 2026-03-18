@@ -384,5 +384,133 @@ export const MOVIES: Movie[] = [
     coreConflictsZh: ['自我发现', '社会期望', '时间的流逝'],
     toneProfile: 'Sensual, sun-drenched, intellectual, heartbreaking',
     toneProfileZh: '感性、阳光明媚、理智、令人心碎'
+  },
+  {
+    id: 'the-truman-show',
+    title: 'The Truman Show',
+    titleZh: '楚门的世界',
+    year: 1998,
+    slug: 'the-truman-show',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BMDIzODcyY2EtMmY2MC00ZWVlLTgwMzAtMjQwOWUyNmJjNTYyXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_.jpg',
+    genres: ['Drama', 'Comedy', 'Sci-Fi'],
+    genresZh: ['剧情', '喜剧', '科幻'],
+    moodTags: ['Reality', 'Freedom', 'Surveillance', 'Existential'],
+    moodTagsZh: ['现实', '自由', '监视', '存在主义'],
+    endingTheme: 'The courage to walk away from a perfect, artificial world.',
+    endingThemeZh: '走出完美人造世界的勇气。',
+    shortSynopsis: 'An insurance salesman discovers his whole life is actually a reality TV show.',
+    shortSynopsisZh: '一名保险推销员发现他的整个生活实际上是一场真人秀。',
+    endingSummary: 'Truman reaches the edge of the dome, finds the exit door, and takes a final bow before walking out into the real world.',
+    endingSummaryZh: '楚门到达了圆顶的边缘，找到了出口，在走向真实世界之前做了最后的谢幕。',
+    samplePrompts: [
+      'What if Truman decided to stay in the dome for Sylvia?',
+      'What if Christof convinced him that the real world was too dangerous?',
+      'What if the show was cancelled while Truman was still in the middle of the ocean?'
+    ],
+    samplePromptsZh: [
+      '如果楚门为了施维亚决定留在圆顶内会怎样？',
+      '如果基斯督说服他现实世界太危险了会怎样？',
+      '如果楚门还在大海中央时节目就被取消了会怎样？'
+    ],
+    coreConflicts: ['Reality vs Simulation', 'Free Will', 'Media Ethics'],
+    coreConflictsZh: ['现实 vs 模拟', '自由意志', '媒体伦理'],
+    toneProfile: 'Satirical, philosophical, uplifting, surreal',
+    toneProfileZh: '讽刺、富有哲理、令人振奋、超现实'
+  },
+  {
+    id: 'legend-of-1900',
+    title: 'The Legend of 1900',
+    titleZh: '海上钢琴师',
+    year: 1998,
+    slug: 'legend-of-1900',
+    posterUrl: 'https://lh3.googleusercontent.com/proxy/UzQJjUL-KkuOQm2rlMq3VwijwGVbdWdcJOYRskcbk2hMo35W3dhrRYZEi3gklkktdq2kJNbu_NI-vYjOfHTw36465eKDR9dXUSJCZJcBErbfE0-f_dfUu_jNUoiRBiR7H-AXSg',
+    genres: ['Drama', 'Music', 'Romance'],
+    genresZh: ['剧情', '音乐', '爱情'],
+    moodTags: ['Solitude', 'Genius', 'Music', 'Immensity'],
+    moodTagsZh: ['孤独', '天才', '音乐', '浩瀚'],
+    endingTheme: 'A man who chose to stay within the boundaries of his world.',
+    endingThemeZh: '一个选择留在自己世界边界内的男人。',
+    shortSynopsis: 'A baby abandoned on a steamship grows up to be a musical prodigy who never sets foot on land.',
+    shortSynopsisZh: '一个被遗弃在蒸汽轮船上的婴儿长大后成为了一个从未踏上陆地的音乐神童。',
+    endingSummary: '1900 refuses to leave the ship as it is about to be demolished with dynamite, choosing to go down with the only world he has ever known.',
+    endingSummaryZh: '1900拒绝离开即将被炸毁的船，选择与他所知道的唯一世界一起沉没。',
+    samplePrompts: [
+      'What if 1900 actually stepped off the ship for the girl?',
+      'What if Max convinced him to leave the ship before the explosion?',
+      'What if he became a world-famous pianist on land but lost his inspiration?'
+    ],
+    samplePromptsZh: [
+      '如果1900真的为了那个女孩踏下了船会怎样？',
+      '如果马克斯在爆炸前说服他离开了船会怎样？',
+      '如果他在陆地上成为了世界闻名的钢琴家但失去了灵感会怎样？'
+    ],
+    coreConflicts: ['Infinity vs Boundaries', 'Solitude', 'Artistic Purity'],
+    coreConflictsZh: ['无限 vs 边界', '孤独', '艺术纯粹性'],
+    toneProfile: 'Melancholic, grand, poetic, musical',
+    toneProfileZh: '忧郁、宏大、诗意、音乐性'
+  },
+  {
+    id: 'cinema-paradiso',
+    title: 'Cinema Paradiso',
+    titleZh: '天堂电影院',
+    year: 1988,
+    slug: 'cinema-paradiso',
+    posterUrl: 'https://m.media-amazon.com/images/M/MV5BYmI5ZDY5ZDQtYmMyZS00NjU4LTg5NzgtZWMxYjFkMzQzZThiXkEyXkFqcGc@._V1_.jpg',
+    genres: ['Drama', 'Romance'],
+    genresZh: ['剧情', '爱情'],
+    moodTags: ['Nostalgia', 'Cinema', 'Mentorship', 'Love'],
+    moodTagsZh: ['怀旧', '电影', '启蒙', '爱情'],
+    endingTheme: 'A tribute to the magic of cinema and lost love.',
+    endingThemeZh: '对电影魔力和逝去爱情的致敬。',
+    shortSynopsis: 'A filmmaker recalls his childhood when falling in love with the pictures at the village\'s theater and forms a deep friendship with the theater\'s projectionist.',
+    shortSynopsisZh: '一位电影导演回想起他的童年，当时他爱上了村里电影院的影片，并与电影院的放映员建立了深厚的友谊。',
+    endingSummary: 'Salvatore watches the reel of censored kisses left to him by Alfredo, realizing the depth of his mentor\'s love and the sacrifices made for his career.',
+    endingSummaryZh: '多多看着阿尔弗雷多留给他的那些被剪掉的接吻镜头集锦，意识到了导师深沉的爱以及为他的事业所做的牺牲。',
+    samplePrompts: [
+      'What if Salvatore never left his hometown?',
+      'What if Elena had met him at the station that night?',
+      'What if Alfredo hadn\'t discouraged him from staying?'
+    ],
+    samplePromptsZh: [
+      '如果多多从未离开过他的家乡会怎样？',
+      '如果艾莲娜那天晚上在车站见到了他会怎样？',
+      '如果阿尔弗雷多没有劝阻他留下会怎样？'
+    ],
+    coreConflicts: ['Career vs Love', 'Nostalgia', 'Mentorship'],
+    coreConflictsZh: ['事业 vs 爱情', '怀旧', '导师情谊'],
+    toneProfile: 'Nostalgic, emotional, cinematic, heartwarming',
+    toneProfileZh: '怀旧、感人、具有电影感、温馨'
+  },
+  {
+    id: 'shawshank-redemption',
+    title: 'The Shawshank Redemption',
+    titleZh: '肖申克的救赎',
+    year: 1994,
+    slug: 'shawshank-redemption',
+    posterUrl: 'https://m.media-amazon.com/images/I/61-vQDr7ecL._AC_UF1000,1000_QL80_.jpg',
+    genres: ['Drama'],
+    genresZh: ['剧情'],
+    moodTags: ['Hope', 'Friendship', 'Justice', 'Perseverance'],
+    moodTagsZh: ['希望', '友谊', '正义', '毅力'],
+    endingTheme: 'Hope is a good thing, maybe the best of things.',
+    endingThemeZh: '希望是一件好事，也许是世间最好的事。',
+    shortSynopsis: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
+    shortSynopsisZh: '两名被囚禁的男子在数年间建立了深厚的友谊，通过平凡的善举找到了慰藉并最终获得了救赎。',
+    endingSummary: 'Andy escapes Shawshank and settles in Zihuatanejo. Red eventually joins him on the beach after being paroled, fulfilling their promise.',
+    endingSummaryZh: '安迪逃出了肖申克，定居在芝华塔尼欧。瑞德在获得假释后最终在海滩上与他重逢，履行了他们的诺言。',
+    samplePrompts: [
+      'What if Andy\'s escape plan was discovered the night before?',
+      'What if Brooks had found a way to adapt to the outside world?',
+      'What if Red wasn\'t paroled and Andy had to find another way to reach him?'
+    ],
+    samplePromptsZh: [
+      '如果安迪的逃跑计划在头天晚上被发现了会怎样？',
+      '如果老布找到了适应外部世界的方法会怎样？',
+      '如果瑞德没有获得假释，安迪不得不找另一种方式联系他会怎样？'
+    ],
+    coreConflicts: ['Hope vs Despair', 'Institutionalization', 'Justice'],
+    coreConflictsZh: ['希望 vs 绝望', '体制化', '正义'],
+    toneProfile: 'Uplifting, powerful, gritty, hopeful',
+    toneProfileZh: '令人振奋、有力、坚毅、充满希望'
   }
 ];
