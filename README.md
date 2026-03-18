@@ -123,16 +123,3 @@ The system then analyzes how that change reshapes the emotional arc, character d
 - **Gemini API**
 - **Vercel** for deployment
 
-
-## Run Locally
-
-### Prerequisites
-- **Node.js**
-- A valid **Gemini API key**
-
-### Setup
-
-Install dependencies
-
-```bash
-npm install
