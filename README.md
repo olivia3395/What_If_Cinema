@@ -31,6 +31,12 @@ The system then analyzes how that change reshapes the emotional arc, character d
 
 > **Not every ending needs to be undone. But some deserve to be imagined differently.**
 
+### Home Page
+
+![Home Page](./cinema1.png)
+
+![Home Page CN](./cinema2.png)
+
 
 
 ## Features
@@ -56,14 +62,6 @@ The system then analyzes how that change reshapes the emotional arc, character d
 - **Cinematic dark-mode UI** designed for immersive storytelling
 
 
-
-## Screenshots
-
-### Home Page
-
-![Home Page](./cinema1.png)
-
-![Home Page CN](./cinema2.png)
 
 
 
